@@ -13,15 +13,16 @@ Add this before Setup():
 
 Add this to Setup():
 
-    dac.setBuffer(true); 
-    dac.setPortWrite(true); //Faster analog outs, but loses pin 7.
+    dac.setBuffer(true);        //	Set FALSE for 5V vref.
+    dac.setGain(2);	            //	"1" for 5V vref. "2" for 2.5V vref.
+    dac.setPortWrite(true);     //  Faster analog outs, but loses pin 7.
 
-Change the "dacOutput" function (very dirty method):
+Change the "dacOutput" function (quick 'n dirty method):
 
     void dacOutput(byte v)
     {
-    	short out = (v * 16);	//	Scale 8 bits to 12 bits.
-    	dac.outputA(out);
+    	short out = (v * 16);   //	Scale 8 bits to 12 bits.
+    	dac.outputA(out);       //  Second output: "dac.outputB()"
     }
 
 
