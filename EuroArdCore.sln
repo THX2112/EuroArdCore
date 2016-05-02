@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AC01_Template", "code\ArdCore\AC01_Template\AC01_Template.vcxproj", "{3435F3F0-B60F-43AD-A621-C67C7EF81B72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3435F3F0-B60F-43AD-A621-C67C7EF81B72}.Debug|x86.ActiveCfg = Debug|Win32
+		{3435F3F0-B60F-43AD-A621-C67C7EF81B72}.Debug|x86.Build.0 = Debug|Win32
+		{3435F3F0-B60F-43AD-A621-C67C7EF81B72}.Release|x86.ActiveCfg = Release|Win32
+		{3435F3F0-B60F-43AD-A621-C67C7EF81B72}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
