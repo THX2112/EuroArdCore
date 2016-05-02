@@ -5,6 +5,24 @@ VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AC01_Template", "code\ArdCore\AC01_Template\AC01_Template.vcxproj", "{3435F3F0-B60F-43AD-A621-C67C7EF81B72}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AC02_Quantizer", "code\ArdCore\AC02_Quantizer\AC02_Quantizer.vcxproj", "{7960235C-A93E-4360-AA92-2BC4FF782668}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AC03_DrunkenWalk", "code\ArdCore\AC03_DrunkenWalk\AC03_DrunkenWalk.vcxproj", "{C900A4E5-82FF-462C-A0C1-5C98B504EAFA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AC24_SimpleVCO", "code\ArdCore\AC24_SimpleVCO\AC24_SimpleVCO.vcxproj", "{9DB7A2F0-EBB2-4A11-AFC6-DECF327AE700}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C0239B5-5A2C-4DA7-A94F-DA8E384B61B0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ArdCore", "ArdCore", "{F9076482-F570-47CE-984D-B34987176106}"
+	ProjectSection(SolutionItems) = preProject
+		code\ArdCore\readme.md = code\ArdCore\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mozzi", "Mozzi", "{7E7BCF34-DCFB-44F2-A4FE-2FEB56AA255C}"
+	ProjectSection(SolutionItems) = preProject
+		code\mozzi\readme.md = code\mozzi\readme.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -15,8 +33,26 @@ Global
 		{3435F3F0-B60F-43AD-A621-C67C7EF81B72}.Debug|x86.Build.0 = Debug|Win32
 		{3435F3F0-B60F-43AD-A621-C67C7EF81B72}.Release|x86.ActiveCfg = Release|Win32
 		{3435F3F0-B60F-43AD-A621-C67C7EF81B72}.Release|x86.Build.0 = Release|Win32
+		{7960235C-A93E-4360-AA92-2BC4FF782668}.Debug|x86.ActiveCfg = Debug|Win32
+		{7960235C-A93E-4360-AA92-2BC4FF782668}.Debug|x86.Build.0 = Debug|Win32
+		{7960235C-A93E-4360-AA92-2BC4FF782668}.Release|x86.ActiveCfg = Release|Win32
+		{7960235C-A93E-4360-AA92-2BC4FF782668}.Release|x86.Build.0 = Release|Win32
+		{C900A4E5-82FF-462C-A0C1-5C98B504EAFA}.Debug|x86.ActiveCfg = Debug|Win32
+		{C900A4E5-82FF-462C-A0C1-5C98B504EAFA}.Debug|x86.Build.0 = Debug|Win32
+		{C900A4E5-82FF-462C-A0C1-5C98B504EAFA}.Release|x86.ActiveCfg = Release|Win32
+		{C900A4E5-82FF-462C-A0C1-5C98B504EAFA}.Release|x86.Build.0 = Release|Win32
+		{9DB7A2F0-EBB2-4A11-AFC6-DECF327AE700}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DB7A2F0-EBB2-4A11-AFC6-DECF327AE700}.Debug|x86.Build.0 = Debug|Win32
+		{9DB7A2F0-EBB2-4A11-AFC6-DECF327AE700}.Release|x86.ActiveCfg = Release|Win32
+		{9DB7A2F0-EBB2-4A11-AFC6-DECF327AE700}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3435F3F0-B60F-43AD-A621-C67C7EF81B72} = {F9076482-F570-47CE-984D-B34987176106}
+		{7960235C-A93E-4360-AA92-2BC4FF782668} = {F9076482-F570-47CE-984D-B34987176106}
+		{C900A4E5-82FF-462C-A0C1-5C98B504EAFA} = {F9076482-F570-47CE-984D-B34987176106}
+		{9DB7A2F0-EBB2-4A11-AFC6-DECF327AE700} = {F9076482-F570-47CE-984D-B34987176106}
 	EndGlobalSection
 EndGlobal

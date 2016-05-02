@@ -1,6 +1,8 @@
 **Converting ArdCore Code**
 -----------------------
 
+Warning: This will change.
+
 Install the [DAC_MCP49xx](http://github.com/exscape/electronics/tree/master/Arduino/Libraries/DAC_MCP49xx) Arduino [library](http://www.arduino.cc/en/Guide/Libraries).
 
 Add this before Setup():
@@ -14,7 +16,7 @@ Add this to Setup():
     dac.setBuffer(true); 
     dac.setPortWrite(true); //Faster analog outs, but loses pin 7.
 
-Change the "dacOutput" function:
+Change the "dacOutput" function (very dirty method):
 
     void dacOutput(byte v)
     {
