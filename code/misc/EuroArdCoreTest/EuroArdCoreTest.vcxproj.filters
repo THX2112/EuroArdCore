@@ -15,10 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="AC24_SimpleVCO.ino" />
+    <None Include="EuroArdCoreTest.ino" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.AC24_SimpleVCO.vsarduino.h">
+    <ClInclude Include="__vm\.EuroArdCoreTest.vsarduino.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9DB7A2F0-EBB2-4A11-AFC6-DECF327AE700}</ProjectGuid>
-    <RootNamespace>AC24_SimpleVCO</RootNamespace>
+    <ProjectGuid>{7893C044-7A41-4FCA-B247-A7EF27259DC4}</ProjectGuid>
+    <RootNamespace>Fraktal</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -44,9 +44,6 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs;C:\Users\Mark\Documents\Arduino\EuroArdCore\code\ArdCore\AC24_SimpleVCO;C:\Users\Mark\Documents\Arduino\libraries\DAC_MCP49xx;C:\Users\Mark\Documents\Arduino\libraries\DAC_MCP49xx\utility;C:\Users\Mark\Documents\Arduino\libraries\SPI;C:\Users\Mark\Documents\Arduino\libraries\SPI\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 15\Common7\IDE\Extensions\mm1o2efz.4g2\Micro Platforms\default\debuggers;C:\Users\Mark\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>C:\Users\Mark\Documents\Arduino\EuroArdCore\code\ArdCore\AC24_SimpleVCO\__vm\.AC24_SimpleVCO.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
-      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=10607;ARDUINO_AVR_NANO;ARDUINO_ARCH_AVR;__cplusplus=201103L;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -55,11 +52,14 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <Optimization>MaxSpeed</Optimization>
+      <Optimization>Disabled</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs;C:\Users\Mark\Documents\Arduino\EuroArdCore\code\ArdCore\AC24_SimpleVCO;C:\Users\Mark\Documents\Arduino\libraries\DAC_MCP49xx;C:\Users\Mark\Documents\Arduino\libraries\DAC_MCP49xx\utility;C:\Users\Mark\Documents\Arduino\libraries\SPI;C:\Users\Mark\Documents\Arduino\libraries\SPI\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 15\Common7\IDE\Extensions\mm1o2efz.4g2\Micro Platforms\default\debuggers;C:\Users\Mark\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs;C:\Users\Mark\Documents\Arduino\Fraktal;C:\Users\Mark\Documents\Arduino\libraries\DAC_MCP49xx;C:\Users\Mark\Documents\Arduino\libraries\DAC_MCP49xx\utility;C:\Users\Mark\Documents\Arduino\libraries\SPI;C:\Users\Mark\Documents\Arduino\libraries\SPI\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\glt1ngu0.kcj\Micro Platforms\default\debuggers;C:\Users\Mark\Documents\Arduino\libraries;C:\Users\Mark\Documents\Arduino\EuroArdCore-Code\EuroArdCore-Code\Snazzy_FX\FAC sketches\fac_fm_osc;C:\Program Files (x86)\Arduino\hardware\arduino\avr\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\avr\variants\eightanaloginputs;C:\Users\Mark\Documents\Arduino\libraries\DAC_MCP49xx;C:\Users\Mark\Documents\Arduino\libraries\SPI;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\avr\libraries;C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\Extensions\glt1ngu0.kcj\Micro Platforms\default\debuggers;C:\Users\Mark\Documents\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\tools\avr/avr/include/;C:\Program Files (x86)\Arduino\hardware\tools\avr//avr/include/avr/;C:\Program Files (x86)\Arduino\hardware\tools\avr/lib\gcc\avr\4.8.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>C:\Users\Mark\Documents\Arduino\Fraktal\__vm\.Fraktal.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;F_CPU=16000000L;ARDUINO=10607;ARDUINO_AVR_NANO;ARDUINO_ARCH_AVR;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -68,17 +68,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <None Include="AC24_SimpleVCO.ino" />
+    <None Include="Fraktal.ino">
+      <FileType>CppCode</FileType>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="__vm\.AC24_SimpleVCO.vsarduino.h" />
+    <ClInclude Include="__vm\.Fraktal.vsarduino.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
-  <ProjectExtensions>
-    <VisualStudio>
-      <UserProperties arduino.upload.port="COM10" />
-    </VisualStudio>
-  </ProjectExtensions>
 </Project>

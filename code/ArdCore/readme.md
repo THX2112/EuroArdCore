@@ -17,7 +17,7 @@ Add this to Setup():
     dac.setGain(2);	            //	"1" for 5V vref. "2" for 2.5V vref.
     dac.setPortWrite(true);     //  Faster analog outs, but loses pin 7.
 
-Change the "dacOutput" function (quick 'n dirty method):
+Change the "dacOutput" function:
 
     void dacOutput(byte v)
     {
@@ -25,6 +25,7 @@ Change the "dacOutput" function (quick 'n dirty method):
     	dac.outputA(out);       //  Second output: "dac.outputB()"
     }
 
+There are two 12-bit DAC outs: dac.outputA(), and dac.outputB(). 
 
 ----------
 
