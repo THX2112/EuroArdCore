@@ -1,3 +1,5 @@
+Contents of this folder have been converted.
+
 **Converting ArdCore Code**
 -----------------------
 
